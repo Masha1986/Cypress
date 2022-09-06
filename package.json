@@ -1,0 +1,16 @@
+{
+  "name": "js_auto6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "minded": "cypress run --headed",
+    "maxded": "cypress run --config-file cypress2.config.js --headed",
+    "minless": "cypress run",
+    "maxless": "cypress run --config-file cypress2.config.js"
+  },
+  "author": "Samotohina E",
+  "dependencies": {
+    "cypress": "^10.4.0"
+  }
+}
